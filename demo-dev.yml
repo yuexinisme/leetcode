@@ -1,0 +1,21 @@
+
+server:
+  port: 9998
+spring:
+  data:
+    elasticsearch:
+      cluster-nodes: 127.0.0.1:9300
+
+  application:
+    name: demo
+  datasource:
+    url: jdbc:mysql://localhost:3306/taobao
+    username: root
+    password: yuexinisme
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8083/eureka
+  instance:
+    prefer-ip-address: true
+    ip-address: 127.0.0.1
