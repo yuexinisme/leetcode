@@ -9,8 +9,8 @@ spring:
   application:
     name: demo
   datasource:
-    url: jdbc:mysql://localhost:3306/taobao
-    username: root
+    url: jdbc:oracle:thin:@127.0.0.1:1521:orcl
+    username: sys
     password: yuexinisme
 eureka:
   client:
