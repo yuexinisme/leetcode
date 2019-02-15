@@ -12,6 +12,7 @@ spring:
     url: jdbc:oracle:thin:@127.0.0.1:1521:orcl
     username: sys
     password: yuexinisme
+    driver-class-name: oracle.jdbc.OracleDriver
 eureka:
   client:
     service-url:
