@@ -2,6 +2,8 @@
 server:
   port: 9998
 spring:
+  jpa:
+    database-platform: org.hibernate.dialect.MySQLDialect
   data:
     elasticsearch:
       cluster-nodes: 127.0.0.1:9300
