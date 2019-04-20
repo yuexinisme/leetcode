@@ -7,7 +7,7 @@ import java.util.Map;
  * @author Nick Yuan
  * @date 2019/4/13
  * @mood shitty as fuck but hopefully it's 'transient'
- * @problem leetcode #4 hard
+ * @problem leetcode#4 hard
  */
 public class Solution {
     /**First create a third array to store the combined result. Use a counter to monitor
